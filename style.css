@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
+html {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  background-color: lightgrey;
+}
+
+.cookie-header > h2 {
+  font-size: 4rem;
+}
+.cookie-header > p {
+  font-size: 2rem;
+}
+
+.cookie-header :nth-child(2) {
+  margin: 3rem 0;
+}
+.cookie-section {
+  width: 600px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 4rem;
+}
+a {
+  text-decoration: none;
+  color: dodgerblue;
+}
+.btn-container :first-child {
+  margin-bottom: 1rem;
+}
+.btn {
+  padding: 2rem;
+  border: none;
+  border-radius: 15px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 2rem;
+  width: 100%;
+}
+.btn-primary {
+  color: white;
+  background-color: dodgerblue;
+}
+.btn-container {
+  margin-top: 3rem;
+}
+
+.btn-outline {
+  background-color: white;
+  border: 2px solid gray;
+}
